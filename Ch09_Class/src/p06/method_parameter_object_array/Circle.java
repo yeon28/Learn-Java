@@ -1,4 +1,4 @@
-package p05.encaosulation;
+package p06.method_parameter_object_array;
 /*
   private 키워드
   - 대상 : field, 메소드 에서 사용가능 (컨스트럭터도 사용 가능)
@@ -9,7 +9,6 @@ package p05.encaosulation;
       			-> 대신 프라이빗으로 선언한 필드들에 대해서 다른 클래스 에서 해당 필드를 사용하기 위해 퍼블릭으로 선언한 getter/ setter메소드를 제공함
        - 메소드에 대해서 만약 프라이빗으로 선언한 것은 클래스 내부적으로만 사용하고 외부에 공개하지 않겠다는 의미 
   - Encapsulation(캡슐화) : 클래스 필드,메소드 등을 프라이빗으로 선언해서 외부에 공개하지 않는 것을 의미함 
-    --> information hiding (정보은닉)
  */
 public class Circle {
 	private double radius = 1;
@@ -30,7 +29,6 @@ public class Circle {
 
 	// getter method
 	public double getRadius() {
-		printPrivateHello();
 		return radius;
 	}
 
