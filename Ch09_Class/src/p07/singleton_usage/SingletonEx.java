@@ -20,10 +20,12 @@ public class SingletonEx {
 			System.out.println("다른  힙메모리를 갖고 있음. 즉, 다른  싱글톤 인스턴스임.");
 		}
 		
+//		Date
+		// Calendar 싱글 
 		Calendar cal = Calendar.getInstance();
 		System.out.println(cal.getTime());
 		
-//		Date
+
 		
 	}
 

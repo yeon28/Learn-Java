@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 public class PrintAnnotationEx {
 
 	public static void main(String[] args) {
-		// service clss에 선언된 메소드 정보를 갖는 프로그램
+		// service class에 선언된 메소드 정보를 갖는 프로그램
 		// reflection : 클레스에서 존재하는 메소드 정보를 가져오는 것
 //			--> Method[] declaredMethod = Service.class.getDeclaredMethods();
 		
