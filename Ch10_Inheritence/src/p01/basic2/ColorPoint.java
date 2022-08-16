@@ -7,16 +7,19 @@ package p01.basic2;
  */
 public class ColorPoint extends Point {
 
-	private  String  color;
+	private  String  color; //점의 색
+	
 	public void  setColor(String color) {
 		this.color = color;
 		
 	}
 	
-	public void serColorAndPoint(String color, int x, int y) {
+	public void setColorAndPoint(String color, int x, int y) {
 		this.color = color;
 		// 자식 class에서 부모 class의 필드 사용 가능
-		this.x = x;
+		this.x = x; 
+		// this.x	-> 는 부모인 Point의 메소드 
+		// 		x	-> 는 자식인 ColorPoint에서 선언한 메소드
 		this.y = y;
 	}
 
