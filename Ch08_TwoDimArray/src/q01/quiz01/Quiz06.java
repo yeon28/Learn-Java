@@ -22,32 +22,29 @@ import java.util.Scanner;
  */
 public class Quiz06 {
 
-	public static void PassWordCheck() {
-		
-	}
-	public static void main(String[] args) {
-		Scanner  input = new Scanner(System.in);
-		System.out.println("PassWord를 입력하세요.");
-		
-		String inputPW = input.nextLine();
-		
-		char[] chrPW = inputPW.toCharArray();
-		
-		if (chrPW.length < 10) 
-			System.out.println("pw는 최소 10자리 이상만 가능합니다.");
-			break;
-		
-		for (int i = 0; i < chrPW.length; i++) {
-			if (Character.isLetterOrDigit(chrPW[i]) &&  Character.isDigit) {
-				
-			}
-			
-		}
-		
-		
-		System.out.println(+ "은 유효합니다.");
-		System.out.println(+ "은 유효하지 않습니다.");
-		
-	}
 
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("PassWord를 입력하세요.");
+
+		String passWord = input.nextLine();
+		
+		char[] chrPW = passWord.toCharArray();
+
+		if ((10 <= chrPW.length)) {
+			for (int i = 0; i < chrPW.length; i++) {
+				if (Character.isLetterOrDigit(chrPW[i]) && Character.isDigit(chrPW[i])) {
+					System.out.println(passWord + "은 유효합니다.");
+				} else {
+					System.out.println(passWord + "은 유효하지 않습니다.");
+				}
+
+			}
+		} else {
+			System.out.println(passWord + "은 유효하지 않습니다.");
+		}
+
+	}
 }

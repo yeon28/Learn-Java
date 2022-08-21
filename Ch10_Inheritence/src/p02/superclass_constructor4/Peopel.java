@@ -5,10 +5,9 @@ public class Peopel {
 	public String ssn;
 	
 	public Peopel() {
-		System.out.println("parent - default constructor");
+		System.out.println("parent class - default constructor");
 	}
 	public void people(String name,String ssn) {
-		this();
 		this.name = name;
 		this.ssn = ssn;
 	}
