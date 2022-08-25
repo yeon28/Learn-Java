@@ -1,4 +1,4 @@
-package p09.regular_excression;
+package p09.regular_expression;
 
 import java.util.regex.Pattern;
 
