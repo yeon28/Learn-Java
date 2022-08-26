@@ -10,6 +10,12 @@ public class Account {
 		balance = 0;
 	}
 
+	/**
+	 * 
+	 * @param account 계좌번호 입력 
+	 * @param owner 예금주 입력 
+	 * @param balance 통장 잔고 입력 
+	 */
 	public Account(String account, String owner, int balance) {
 		this.accountNo = account;
 		this.ownerName = owner;
