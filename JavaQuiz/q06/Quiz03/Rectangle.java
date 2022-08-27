@@ -23,15 +23,16 @@ public class Rectangle {
 	private int width;
 	private int height;
 
-	public Rectangle() {	}
-	
-	public Rectangle(int width, int height) {	
+	public Rectangle() {
+	}
+
+	public Rectangle(int width, int height) {
 		this.width = width;
 		this.height = height;
 	}
-	
+
 //	-------------------------getter setter
-	
+
 	public int getWidth() {
 		return width;
 	}
@@ -50,26 +51,18 @@ public class Rectangle {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (width.equals(height)) {
-			return true;
+		if (obj instanceof Rectangle) {
+			Rectangle rct = (Rectangle) obj;
+			if ((this.width == rct.width) && (this.height == (rct.height))) {
+				return true;
+			}
 		}
-		
+		return false;
 	}
-	
+
 	@Override
 	public String toString() {
-		return super.toString();
+		return "너비 : " + width + ", 높이 : " + height;
 	}
-	
-	public static void main(String[] args) {
-		
-		Rectangle r1 = new Rectangle(3, 4);
-		Rectangle r2 = new Rectangle(3, 4);
-		Rectangle r3 = new Rectangle(3, 5);
-		
-		if (condition) {
-			
-		}
-	}
-	
+
 }
