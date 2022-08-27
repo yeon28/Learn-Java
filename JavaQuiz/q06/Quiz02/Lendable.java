@@ -11,9 +11,9 @@ package Quiz02;
 ▪ MS word 문서의 소스코드의 빈칸을 코딩하여 출력 결과 예시대로 나오게 하시오
  */
 public interface Lendable {
-	void checkOut(String borrower, String data);
-	void checkIn();
+	
+	void checkOut(String borrower, String data);	// 대출한다. 
 
-	
-	
+	void checkIn();	// 반납한다. 
+
 }
