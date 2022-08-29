@@ -1,4 +1,4 @@
-package p03.method_generic;
+package p03.generic_method;
 
 /*
 <T> Box<T> boxing(T t) 

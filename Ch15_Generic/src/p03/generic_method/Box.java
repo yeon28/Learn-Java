@@ -1,4 +1,4 @@
-package p03.method_generic;
+package p03.generic_method;
 
 public class Box<T> {
 	private T t;
