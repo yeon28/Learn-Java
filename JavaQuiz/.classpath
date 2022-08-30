@@ -7,5 +7,10 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="q06"/>
+	<classpathentry kind="src" path="q01"/>
+	<classpathentry kind="src" path="q02"/>
+	<classpathentry kind="src" path="q03"/>
+	<classpathentry kind="src" path="q04"/>
+	<classpathentry kind="src" path="q05"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
