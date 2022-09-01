@@ -6,11 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="q06"/>
-	<classpathentry kind="src" path="q01"/>
-	<classpathentry kind="src" path="q02"/>
-	<classpathentry kind="src" path="q03"/>
-	<classpathentry kind="src" path="q04"/>
-	<classpathentry kind="src" path="q05"/>
+	<classpathentry excluding="src/|q06/|q01/|q02/|q03/|q04/|q05/" kind="src" path=""/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
