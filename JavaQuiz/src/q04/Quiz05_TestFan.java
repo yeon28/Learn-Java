@@ -1,7 +1,5 @@
 package q04;
 
-import org.omg.DynamicAny._DynAnyFactoryStub;
-
 /*
  5. Fan class 만들기
  

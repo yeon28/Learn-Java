@@ -1,6 +1,6 @@
-package Quiz04_09;
+package q06;
 
-public class StringConvertEx {
+public class Quiz04_09_StringConvertEx {
 
 	public static void main(String[] args) {
 		String strDate1 = "200";

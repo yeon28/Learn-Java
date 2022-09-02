@@ -1,7 +1,5 @@
 package q04;
 
-import p07.singleton_usage.Singleton;
-
 public class Quiz13_Account {
 	private String ano;
 	private String owner;

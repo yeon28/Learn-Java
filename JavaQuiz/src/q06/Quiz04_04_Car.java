@@ -1,6 +1,6 @@
-package Quiz04_04;
+package q06;
 
-public class Car {
+public class Quiz04_04_Car {
 	class Tire{
 		
 	}

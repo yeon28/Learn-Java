@@ -1,8 +1,8 @@
-package Quiz04_08;
+package q06;
 
 import java.util.StringTokenizer;
 
-public class SplitEx {
+public class Quiz04_08_SplitEx {
 
 	public static void main(String[] args) {
 		String str = "아이디,이름,패스워드";

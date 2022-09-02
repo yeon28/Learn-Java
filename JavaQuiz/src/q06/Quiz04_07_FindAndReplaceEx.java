@@ -1,6 +1,6 @@
-package Quiz04_07;
+package q06;
 
-public class FindAndReplaceEx {
+public class Quiz04_07_FindAndReplaceEx {
 
 	public static void main(String[] args) {
 		String str = "모든 프로그램은 자바로 개발될 수 있다.";

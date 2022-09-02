@@ -1,15 +1,15 @@
-package Quiz04_06;
+package q06;
 
-public class Member {
+public class Quiz04_06_Member {
 	private String id;
 	private String name;
 	
-	public Member() {
+	public Quiz04_06_Member() {
 		this.id = id;
 		this.name = name;
 	}
 	
-	public Member(String id , String name) {
+	public Quiz04_06_Member(String id , String name) {
 		this.id = id;
 		this.name = name;
 		

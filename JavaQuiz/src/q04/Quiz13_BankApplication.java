@@ -2,8 +2,6 @@ package q04;
 
 import java.util.Scanner;
 
-import p07.singleton_usage.Singleton;
-
 public class Quiz13_BankApplication {
 
 	private static Quiz13_Account[] accontArray = new Quiz13_Account[100];
